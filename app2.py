@@ -77,7 +77,7 @@ def main():
             df[columna_categorica].value_counts().plot(kind='bar', ax=ax)
             st.pyplot(fig)
         
-        st.sidebar.text('Desarrollado por: Frank Marine')
+        st.sidebar.text('Desarrollado por: Frank')
 
 if __name__ == '__main__':
     main()
