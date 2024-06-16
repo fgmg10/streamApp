@@ -14,6 +14,9 @@ from sklearn.linear_model import SGDClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
+import pip
+pip.main(["install","openpyxl"])
+
 # Configuración de la interfaz de usuario
 st.title('Selección de Algoritmo de Machine Learning')
 st.sidebar.header('Opciones')

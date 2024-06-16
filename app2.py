@@ -4,6 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+import pip
+pip.main(["install","openpyxl"])
+
 # Función para cargar datos desde un archivo
 def cargar_datos(archivo):
     if archivo is not None:
